@@ -29,7 +29,7 @@ project_folder/
 It is recommended to use a virtual environment to manage dependencies. Install the required Python libraries using `requirements.txt`:
 
 # Create and activate a virtual environment
-```bash
+```
 python -m venv venv
 
 source venv/bin/activate       # On Linux/Mac
@@ -62,14 +62,17 @@ python src/testing.py
 
 
 5. Run the GUI
-Run the gui.py script to launch a PyQt6-based graphical interface for image classification.
-
+Run the `gui.py` script to launch a PyQt6-based graphical interface for image classification.
+```
 python src/gui.py
+```
 The GUI allows users to:
 
-Drag and drop an image file for classification.
-Select an image file via a file dialog.
-Scripts Overview
+-Drag and drop an image file for classification.
+-Select an image file via a file dialog.
+
+#Scripts Overview
+
 1. model.py
 Trains a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.
 Visualizes training and validation accuracy/loss.
