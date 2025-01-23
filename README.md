@@ -90,10 +90,12 @@ Features:
 - File dialog for selecting images.
 - Displays predictions and the input image.
 
+---
+
 # Dependencies
 The project dependencies are listed in requirements.txt. Install them using the following command:
 
-# ---
+---
 
 pip install -r requirements.txt
 Key Dependencies:
