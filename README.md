@@ -86,15 +86,14 @@ Displays random test images with predicted class labels.
 3. gui.py
 PyQt6-based GUI for real-time image classification.
 Features:
-Drag-and-drop support for images.
-File dialog for selecting images.
-Displays predictions and the input image.
-Dependencies
+- Drag-and-drop support for images.
+- File dialog for selecting images.
+- Displays predictions and the input image.
+
+# Dependencies
 The project dependencies are listed in requirements.txt. Install them using the following command:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Key Dependencies:
 Python 3.9+
