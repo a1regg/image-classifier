@@ -1,7 +1,11 @@
-CIFAR-10 Image Classification Project
----
+# CIFAR-10 Image Classification Project
+
 This project implements a CIFAR-10 image classification pipeline using TensorFlow and Keras, with a PyQt6-based graphical user interface (GUI) for real-time image classification. The model is trained on the CIFAR-10 dataset, and predictions can be made via a GUI with drag-and-drop or file selection functionality.
--
+
+---
+
+## Project Structure
+
 
 Project Structure
 project_folder/
