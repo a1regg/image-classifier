@@ -29,8 +29,9 @@ project_folder/
 It is recommended to use a virtual environment to manage dependencies. Install the required Python libraries using `requirements.txt`:
 
 # Create and activate a virtual environment
-'''bash
+```bash
 python -m venv venv
+```
 source venv/bin/activate       # On Linux/Mac
 venv\Scripts\activate          # On Windows
 
