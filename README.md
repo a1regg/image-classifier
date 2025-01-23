@@ -54,7 +54,7 @@ This script:
 - Saves the trained model to `data/model.keras`.
 
 
-#4. Test the Model
+# 4. Test the Model
 
 Run the `testing.py` script to evaluate the trained model and display predictions on randomly selected test images:
 '''bash
@@ -73,7 +73,7 @@ The GUI allows users to:
 
 ---
 
-#Scripts Overview
+# Scripts Overview
 
 1. model.py
 Trains a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.
@@ -97,7 +97,7 @@ Copy
 Edit
 pip install -r requirements.txt
 Key Dependencies:
-Python 3.8+
+Python 3.9+
 TensorFlow/Keras
 Numpy
 Matplotlib
@@ -122,23 +122,17 @@ Usage Examples
 Train the Model
 Run model.py to train and save the model:
 
-bash
-Copy
-Edit
+
 python src/model.py
 Test the Model
 Run testing.py to evaluate the model:
 
-bash
-Copy
-Edit
+b
 python src/testing.py
 Classify Images via GUI
 Run gui.py to classify images using the GUI:
 
-bash
-Copy
-Edit
+
 python src/gui.py
 Output
 Model Training: Plots showing training and validation accuracy/loss during training.
