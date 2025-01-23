@@ -68,8 +68,8 @@ python src/gui.py
 ```
 The GUI allows users to:
 
--Drag and drop an image file for classification.
--Select an image file via a file dialog.
+- Drag and drop an image file for classification.
+- Select an image file via a file dialog.
 
 #Scripts Overview
 
