@@ -93,6 +93,7 @@ Features:
 # Dependencies
 The project dependencies are listed in requirements.txt. Install them using the following command:
 
+# ---
 
 pip install -r requirements.txt
 Key Dependencies:
