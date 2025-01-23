@@ -28,14 +28,14 @@ project_folder/
 
 It is recommended to use a virtual environment to manage dependencies. Install the required Python libraries using `requirements.txt`:
 
-# Create and activate a virtual environment
+## Create and activate a virtual environment
 ```
 python -m venv venv
 
 source venv/bin/activate       # On Linux/Mac
 venv\Scripts\activate          # On Windows
 ```
-# Install dependencies
+## Install dependencies
 ```
 pip install -r requirements.txt
 ```
@@ -55,7 +55,7 @@ This script:
 - Saves the trained model to `data/model.keras`.
 
 
-# 4. Test the Model
+## 4. Test the Model
 
 Run the `testing.py` script to evaluate the trained model and display predictions on randomly selected test images:
 ```
@@ -74,7 +74,7 @@ The GUI allows users to:
 
 ---
 
-# Scripts Overview
+## Scripts Overview
 
 1. model.py
 Trains a Convolutional Neural Network (CNN) on the CIFAR-10 dataset.
@@ -93,7 +93,7 @@ Features:
 
 ---
 
-# Dependencies
+## Dependencies
 The project dependencies are listed in `requirements.txt`. Install them using the following command:
 
 ```
@@ -109,7 +109,7 @@ Key Dependencies:
 
 ---
 
-# Dataset
+## Dataset
 The project uses the CIFAR-10 dataset, which consists of 60,000 32x32 color images across 10 classes:
 
 - Airplane
@@ -126,7 +126,7 @@ The project uses the CIFAR-10 dataset, which consists of 60,000 32x32 color imag
 Place the CIFAR-10 dataset in data/cifar10/cifar-10-batches/ before running the scripts or modify paths in the scripts.
 
 ---
-# Usage Examples
+## Usage Examples
 - Train the Model
 Run `model.py` to train and save the model:
 
@@ -152,6 +152,6 @@ GUI: Real-time predictions displayed on selected or dropped images.
 
 ---
 
-# Acknowledgments
+## Acknowledgments
 - The project uses the [CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar.html) dataset provided by the Canadian Institute For Advanced Research. 
 - Developed using TensorFlow, Keras, and PyQt6. 
