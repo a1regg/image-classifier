@@ -8,7 +8,7 @@ This project implements a CIFAR-10 image classification pipeline using TensorFlo
 
 project_folder/
 │
-├── data/
+|-- data/
 │   └── cifar10/
 │       └── cifar-10-batches/
 │           └── cifar10 data files
