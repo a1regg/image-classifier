@@ -7,20 +7,18 @@ This project implements a CIFAR-10 image classification pipeline using TensorFlo
 ## Project Structure
 
 ```
-├── example.json
-├── index.html
-├── index.js
-├── package.json
-├── package-lock.json
-├── README.md
-└── src
-    ├── app.js
-    ├── models.js
-    ├── routes.js
-    └── utils
-        ├── another.js
-        ├── constants.js
-        └── index.js
+project_folder/
+├── data/
+│   └── cifar10/
+│       └── cifar-10-batches/    # CIFAR-10 dataset files
+├── src/
+│   ├── model.py                # Script to train and save the CIFAR-10 model
+│   ├── testing.py              # Script to evaluate the model and display predictions
+│   ├── gui.py                  # PyQt6-based GUI for real-time image classification
+├── venv/                       # Virtual environment (recommended for dependencies)
+├── requirements.txt            # Python dependencies for the project
+└── README.md                   # Project documentation
+
 ```
 
 
