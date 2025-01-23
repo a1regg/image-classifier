@@ -5,7 +5,7 @@ This project implements a CIFAR-10 image classification pipeline using TensorFlo
 ---
 
 ## Project Structure
-
+'''
 project_folder/
 │
 |-- data/
@@ -21,7 +21,7 @@ project_folder/
 ├── venv/               # Virtual environment (recommended for dependencies)
 ├── requirements.txt    # Python dependencies for the project
 └── README.md           # Project documentation
-
+'''
 ---
 
 ## Getting Started
