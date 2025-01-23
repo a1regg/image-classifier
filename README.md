@@ -106,7 +106,6 @@ Key Dependencies:
 - Numpy
 - Matplotlib
 - PyQt6
-- Pillow
 
 ---
 
