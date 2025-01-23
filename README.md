@@ -36,8 +36,9 @@ source venv/bin/activate       # On Linux/Mac
 venv\Scripts\activate          # On Windows
 ```
 # Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 2. Download the CIFAR-10 Dataset
 Place the CIFAR-10 dataset (e.g., cifar-10-batches-py) inside the data/cifar10/cifar-10-batches/ directory. The dataset should be in its original binary format, as expected by the scripts.
