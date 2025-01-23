@@ -31,10 +31,10 @@ It is recommended to use a virtual environment to manage dependencies. Install t
 # Create and activate a virtual environment
 ```bash
 python -m venv venv
-```
+
 source venv/bin/activate       # On Linux/Mac
 venv\Scripts\activate          # On Windows
-
+```
 # Install dependencies
 pip install -r requirements.txt
 
