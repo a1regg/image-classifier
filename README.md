@@ -45,8 +45,9 @@ Place the CIFAR-10 dataset (e.g., cifar-10-batches-py) inside the data/cifar10/c
 
 3. Train the Model
 Run the model.py script to train the CNN model on the CIFAR-10 dataset.
+```
 python src/model.py
-
+```
 This script:
 
 - Loads and preprocesses the CIFAR-10 dataset.
@@ -57,9 +58,9 @@ This script:
 # 4. Test the Model
 
 Run the `testing.py` script to evaluate the trained model and display predictions on randomly selected test images:
-'''bash
+```
 python src/testing.py
-
+```
 
 5. Run the GUI
 Run the `gui.py` script to launch a PyQt6-based graphical interface for image classification.
@@ -93,7 +94,7 @@ Features:
 ---
 
 # Dependencies
-The project dependencies are listed in requirements.txt. Install them using the following command:
+The project dependencies are listed in `requirements.txt`. Install them using the following command:
 
 ```
 pip install -r requirements.txt
@@ -153,5 +154,5 @@ GUI: Real-time predictions displayed on selected or dropped images.
 ---
 
 # Acknowledgments
-- The project uses the CIFAR-10 dataset provided by the Canadian Institute For Advanced Research. [cifar10](http://www.cs.toronto.edu/~kriz/cifar.html)
+- The project uses the [CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar.html) dataset provided by the Canadian Institute For Advanced Research. 
 - Developed using TensorFlow, Keras, and PyQt6. 
