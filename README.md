@@ -153,5 +153,5 @@ GUI: Real-time predictions displayed on selected or dropped images.
 ---
 
 # Acknowledgments
-- The project uses the CIFAR-10 dataset provided by the Canadian Institute For Advanced Research. 
-- Developed using TensorFlow, Keras, and PyQt6.
+- The project uses the CIFAR-10 dataset provided by the Canadian Institute For Advanced Research. [cifar10](http://www.cs.toronto.edu/~kriz/cifar.html)
+- Developed using TensorFlow, Keras, and PyQt6. 
