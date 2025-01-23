@@ -95,51 +95,63 @@ Features:
 # Dependencies
 The project dependencies are listed in requirements.txt. Install them using the following command:
 
+```
+pip install -r requirements.txt
+```
+
+Key Dependencies:
+- Python 3.9+
+- TensorFlow/Keras
+- Numpy
+- Matplotlib
+- PyQt6
+- Pillow
+
 ---
 
-pip install -r requirements.txt
-Key Dependencies:
-Python 3.9+
-TensorFlow/Keras
-Numpy
-Matplotlib
-PyQt6
-Pillow
-Dataset
+# Dataset
 The project uses the CIFAR-10 dataset, which consists of 60,000 32x32 color images across 10 classes:
 
-Airplane
-Automobile
-Bird
-Cat
-Deer
-Dog
-Frog
-Horse
-Ship
-Truck
-Place the CIFAR-10 dataset in data/cifar10/cifar-10-batches/ before running the scripts.
+- Airplane
+- Automobile
+- Bird
+- Cat
+- Deer
+- Dog
+- Frog
+- Horse
+- Ship
+- Truck
+  
+Place the CIFAR-10 dataset in data/cifar10/cifar-10-batches/ before running the scripts or modify paths in the scripts.
 
-Usage Examples
-Train the Model
-Run model.py to train and save the model:
+---
+# Usage Examples
+- Train the Model
+Run `model.py` to train and save the model:
 
-
+```
 python src/model.py
-Test the Model
-Run testing.py to evaluate the model:
+```
+- Test the Model
+Run `testing.py` to evaluate the model:
 
-b
+```
 python src/testing.py
-Classify Images via GUI
-Run gui.py to classify images using the GUI:
+```
+- Classify Images via GUI
+Run `gui.py` to classify images using the GUI:
 
-
+```
 python src/gui.py
-Output
+```
+- Output
 Model Training: Plots showing training and validation accuracy/loss during training.
 Testing Script: A grid of test images with predicted class labels.
 GUI: Real-time predictions displayed on selected or dropped images.
-Acknowledgments
-The project uses the CIFAR-10 dataset provided by the Canadian Institute For Advanced Research.
-Developed using TensorFlow, Keras, and PyQt6.
+
+---
+
+# Acknowledgments
+- The project uses the CIFAR-10 dataset provided by the Canadian Institute For Advanced Research. 
+- Developed using TensorFlow, Keras, and PyQt6.
