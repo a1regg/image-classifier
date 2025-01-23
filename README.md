@@ -71,6 +71,8 @@ The GUI allows users to:
 - Drag and drop an image file for classification.
 - Select an image file via a file dialog.
 
+---
+
 #Scripts Overview
 
 1. model.py
